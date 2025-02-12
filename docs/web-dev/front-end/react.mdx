@@ -1,0 +1,56 @@
+---
+sidebar_position: 1
+---
+
+# Understanding How React Works ⚛️
+
+If you truly want to master React beyond just using it, you need to understand its **core principles** and **internal mechanisms**. Here’s a structured guide to what you should know:
+
+## 1️⃣ React’s Core Principles
+
+- **[Declarative UI](https://ui.dev/c/react/imperative-vs-declarative)** – Why React prefers declarative over imperative programming.
+- **[Component-Based Architecture](https://react.dev/learn/your-first-component)** – How React structures applications into reusable components.
+- **[Unidirectional Data Flow](https://react.dev/learn/passing-props-to-a-component)** – Understanding the single source of truth and props-driven UI updates.
+- **[Virtual DOM & Reconciliation](https://react.dev/reference/react-dom/createRoot#rendering-and-reconciliation)** – How React efficiently updates the UI.
+
+## 2️⃣ React’s Rendering & Reconciliation
+
+- **[Diffing Algorithm & Fiber Architecture](https://react.dev/reference/react-dom/createRoot#rendering-and-reconciliation)** – How React reconciles updates efficiently.
+- **[Commit & Render Phases](https://blog.saeloun.com/2022/05/18/react-fiber-architecture.html)** – The lifecycle of an update.
+- **[Batching & Prioritization](https://react.dev/reference/react/useState#state-updates-are-batched)** – How React batches state updates to optimize performance.
+
+## 3️⃣ React State Management
+
+- **[useState & useReducer](https://react.dev/reference/react/useState)** – When to use each and how they work under the hood.
+- **[Context API vs. Redux vs. Recoil](https://react.dev/learn/passing-data-deeply-with-context)** – Understanding state-sharing mechanisms.
+- **[React’s Event System](https://react.dev/reference/react-dom/components/common#event-handlers)** – How React handles synthetic events and event delegation.
+
+## 4️⃣ React Hooks & React Internals
+
+- **[Rules of Hooks & Closure Traps](https://react.dev/reference/react/useState#rules-of-hooks)** – Why hooks work the way they do.
+- **[useEffect & Cleanup Mechanisms](https://react.dev/reference/react/useEffect)** – Understanding side effects and dependency arrays.
+- **[Custom Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks)** – How to build reusability within React.
+
+## 5️⃣ Concurrent React & React 18 Advancements
+
+- **[Concurrent Mode & Suspense](https://react.dev/reference/react/Suspense)** – How React prioritizes rendering for a better UX.
+- **[React Server Components](https://react.dev/blog/2024/01/24/react-canary#react-server-components)** – How React renders components on the server.
+
+## 6️⃣ Performance Optimization in React
+
+- **[React.memo & useCallback/useMemo](https://react.dev/reference/react/memo)** – Preventing unnecessary renders.
+- **[Code Splitting & Lazy Loading](https://react.dev/reference/react/lazy)** – Optimizing bundle size.
+- **[React Profiler & Debugging Performance Issues](https://react.dev/blog/2018/09/10/introducing-the-react-profiler)** – Tools to analyze rendering behavior.
+
+## 7️⃣ Server-Side Rendering (SSR) & Hydration
+
+- **[Next.js & React SSR](https://nextjs.org/docs/getting-started/react-essentials#server-side-rendering-ssr)** – Why SSR improves performance and SEO.
+- **[Hydration & Partial Hydration](https://nextjs.org/docs/advanced-features/react-18#streaming-and-partial-hydration)** – How React reuses server-rendered content.
+
+## 8️⃣ React & Browser Fundamentals
+
+- **[JavaScript Closures & Scope in React](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)** – Why re-renders behave unexpectedly.
+- **[Event Loop & Microtasks in React](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop)** – Understanding async behaviors.
+- **[Web APIs vs. React State](https://developer.mozilla.org/en-US/docs/Web/API)** – Why not everything belongs in state.
+
+By diving into these topics, you'll go beyond just **writing React apps**—you'll **understand how React works** from the inside out! 🚀
