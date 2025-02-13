@@ -5,6 +5,7 @@ import Card from "@site/src/components/Card";
 import CardHeader from "@site/src/components/CardHeader";
 import CardBody from "@site/src/components/CardBody";
 import CardFooter from "@site/src/components/CardFooter";
+import PostCard from "@site/src/components/PostCard";
 export default {
   // Reusing the default mapping
   ...MDXComponents,
@@ -12,4 +13,5 @@ export default {
   CardHeader,
   CardBody,
   CardFooter,
+  PostCard
 };

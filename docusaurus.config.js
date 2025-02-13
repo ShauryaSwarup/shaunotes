@@ -15,7 +15,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://shaunotes.pages.dev",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -43,17 +43,17 @@ const config = {
         docs: {
           sidebarPath: "./sidebars.js",
           routeBasePath: "/", // This makes docs the landing page
-          editUrl: "https://github.com/ShauryaSwarup/shaunnotes",
+          // editUrl: "https://github.com/ShauryaSwarup/shaunnotes",
         },
         blog: {
+          blogTitle: "Shaun's blog!",
+          blogDescription: "Updates, thoughts, and more!",
           showReadingTime: true,
           feedOptions: {
             type: ["rss", "atom"],
             xslt: true,
           },
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/ShauryaSwarup/shaunnotes",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -75,19 +75,19 @@ const config = {
         defaultMode: "dark",
         disableSwitch: false,
       },
-      algolia: {
-        appId: "APP_ID",
-        apiKey: "YOUR_API_KEY",
-        indexName: "YOUR_INDEX_NAME",
-        // Options...
-      },
+      // algolia: {
+      //     appId: "APP_ID",
+      //     apiKey: "YOUR_API_KEY",
+      //     indexName: "YOUR_INDEX_NAME",
+      //     // Options...
+      // },
       // Replace with your project's social card
-      image: "img/logo.svg",
+      image: "img/brain.png",
       navbar: {
         title: "Shaunotes",
         logo: {
           alt: "Shaunnotes Logo",
-          src: "img/logo.svg",
+          src: "img/brain.png",
         },
         items: [
           {
@@ -100,7 +100,8 @@ const config = {
           {
             href: "https://github.com/ShauryaSwarup/shaunnotes",
             position: "right",
-            className: "header-github-link",
+            className: "navbar-icon navbar-icon-github",
+            label: "GitHub",
             "aria-label": "GitHub repository",
           },
         ],
@@ -108,32 +109,32 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          // {
-          //   title: "Docs",
-          //   items: [
-          //     {
-          //       label: "Tutorial",
-          //       to: "/docs/intro",
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: "Community",
-          //   items: [
-          //     {
-          //       label: "Stack Overflow",
-          //       href: "https://stackoverflow.com/questions/tagged/docusaurus",
-          //     },
-          //     {
-          //       label: "Discord",
-          //       href: "https://discordapp.com/invite/docusaurus",
-          //     },
-          //     {
-          //       label: "X",
-          //       href: "https://x.com/docusaurus",
-          //     },
-          //   ],
-          // },
+          {
+            title: "Mind Palace",
+            items: [
+              {
+                label: "Notes & LearnLogs",
+                to: "/",
+              },
+            ],
+          },
+          {
+            title: "Community",
+            items: [
+              {
+                label: "GitHub",
+                href: "https://github.com/ShauryaSwarup/",
+              },
+              {
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/shaurya-swarup/",
+              },
+              {
+                label: "X",
+                href: "https://x.com/shaun_on_x",
+              },
+            ],
+          },
           {
             title: "More",
             items: [
