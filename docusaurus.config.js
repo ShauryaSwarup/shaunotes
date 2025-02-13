@@ -82,7 +82,7 @@ const config = {
       //     // Options...
       // },
       // Replace with your project's social card
-      image: "img/brain.png",
+      image: "img/preview.jpg",
       navbar: {
         title: "Shaunotes",
         logo: {
