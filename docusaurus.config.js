@@ -98,7 +98,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/ShauryaSwarup/shaunnotes",
+            href: "https://github.com/ShauryaSwarup/shaunotes",
             position: "right",
             className: "navbar-icon navbar-icon-github",
             label: "GitHub",
@@ -143,13 +143,13 @@ const config = {
                 to: "/blog",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/ShauryaSwarup/shaunnotes",
+                label: "Shaunotes Github",
+                href: "https://github.com/ShauryaSwarup/shaunotes",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ShaunNotes. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Shaunotes. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
