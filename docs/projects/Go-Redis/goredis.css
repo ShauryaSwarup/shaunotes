@@ -1,0 +1,7 @@
+img[alt="GoRedis"] {
+  max-width: 100%; /* Never exceed container width */
+  width: 100px;
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below the image */
+  margin: 0 auto; /* Center the image */
+}

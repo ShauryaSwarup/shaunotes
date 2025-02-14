@@ -1,0 +1,8 @@
+{
+  "label": "Go Redis🐭",
+  "position": 1,
+  "className": "golang",
+  "link": {
+    "type": "generated-index"
+  }
+}

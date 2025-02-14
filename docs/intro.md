@@ -1,4 +1,5 @@
 ---
+sidebar_label: "About this Learnlog 🧠"
 sidebar_position: 1
 slug: /
 ---

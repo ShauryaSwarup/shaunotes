@@ -33,3 +33,8 @@ nav.navbar {
 .navbar__logo img {
   height: 100%;
 }
+li.theme-doc-sidebar-item-category.golang
+  > div.menu__list-item-collapsible
+  > a.menu__link {
+  color: #00add8; /* Change the link color to blue */
+}
