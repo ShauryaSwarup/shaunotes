@@ -26,4 +26,17 @@ I will update this as I make progress in my project
     - Understood the need of single threaded command execution in Redis (achieved using Channels)
 </details>
 
+<details>
+<summary>Day 2</summary>
+  - Added support for `PING, SET, GET, HSET, HGET, HGETALL`
+    - Use of sync.RWMutex locks for:
+      - Only 1 writer at a time
+      - Multiple readers at a time
+      - Readers can't read during writes
+      - Writers can't write during reads
+    - Made it Redis-client compliant
+    - Building response to Redis-clients using RESP
+    - Handling exceptions properly and reverting to client
+    - Use of maps (hashmaps) in Go
+</details>
 
