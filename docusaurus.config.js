@@ -40,6 +40,10 @@ const config = {
     [
       "classic",
       {
+        gtag: {
+          trackingID: "G-Q6VZF656FX",
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: "./sidebars.js",
           routeBasePath: "/", // This makes docs the landing page
