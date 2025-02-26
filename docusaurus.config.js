@@ -47,6 +47,7 @@ const config = {
         docs: {
           sidebarPath: "./sidebars.js",
           routeBasePath: "/", // This makes docs the landing page
+          showLastUpdateTime: true,
           // editUrl: "https://github.com/ShauryaSwarup/shaunnotes",
         },
         blog: {
@@ -79,13 +80,35 @@ const config = {
         defaultMode: "dark",
         disableSwitch: false,
       },
-      // algolia: {
-      //     appId: "APP_ID",
-      //     apiKey: "YOUR_API_KEY",
-      //     indexName: "YOUR_INDEX_NAME",
-      //     // Options...
-      // },
-      // Replace with your project's social card
+      algolia: {
+        // The application ID provided by Algolia
+        appId: "VCW3A1M7L6",
+
+        // Public API key: it is safe to commit it
+        apiKey: "00bdcb868ab8fbf99644a3e319680ead",
+
+        indexName: "shaupages",
+
+        // Optional: see doc section below
+        contextualSearch: false,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        // externalUrlRegex: "external\\.com|domain\\.com",
+
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        // replaceSearchResultPathname: {
+        //   from: "/docs/", // or as RegExp: /\/docs\//
+        //   to: "/",
+        // },
+
+        // Optional: Algolia search parameters
+        // searchParameters: {},
+
+        searchPagePath: "search",
+
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        insights: false,
+      },
       image: "img/preview.jpg",
       navbar: {
         title: "Shaunotes",
