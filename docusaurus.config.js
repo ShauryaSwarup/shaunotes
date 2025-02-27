@@ -127,8 +127,7 @@ const config = {
           {
             href: "https://github.com/ShauryaSwarup/shaunotes",
             position: "right",
-            className: "navbar-icon navbar-icon-github",
-            label: "GitHub",
+            className: "header--github-link",
             "aria-label": "GitHub repository",
           },
         ],
