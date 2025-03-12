@@ -1,0 +1,8 @@
+{
+  "label": "System Design",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "All my learnings on System Design here.⚙️  \n Aim to first address high level design, then move on to low level designing."
+  }
+}
