@@ -3,6 +3,9 @@ slug: pilotpost
 title: Shaun's blog 👋
 description: First Blog Post
 authors: [Shaurya]
+tags:
+  - Intro
+  - First blogpost
 ---
 
 This is the start of my blogging journey. I don't know how often I will update the blog (I'd rather focus on writing technical posts on my Learnlog).
