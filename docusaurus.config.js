@@ -55,8 +55,16 @@ const config = {
           blogDescription: "Updates, thoughts, and more!",
           showReadingTime: true,
           feedOptions: {
-            type: ["rss", "atom"],
-            xslt: true,
+            type: "all",
+            copyright: `Copyright © ${new Date().getFullYear()} Shaunotes`,
+            createFeedItems: async (params) => {
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
           },
           // Please change this to your repo.
           // Useful options to enforce blogging best practices
